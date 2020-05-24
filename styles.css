@@ -2,16 +2,9 @@
   display: flex;
 }
 
-.first-row {
+.row-container {
   display: flex;
-}
-
-.second-row {
-  display: flex;
-}
-
-.third-row {
-  display: flex;
+  justify-content: space-between;
 }
 
 .soup-nazi-img {
