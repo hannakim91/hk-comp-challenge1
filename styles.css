@@ -1,3 +1,10 @@
 .navigation-links {
   display: flex;
 }
+
+.first-row {
+  display: flex;
+}
+.soup-nazi-img {
+  width: 640px;
+}
