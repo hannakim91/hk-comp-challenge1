@@ -5,6 +5,19 @@
 .first-row {
   display: flex;
 }
+
+.second-row {
+  display: flex;
+}
+
+.third-row {
+  display: flex;
+}
+
 .soup-nazi-img {
   width: 640px;
+}
+
+.soup-img {
+  height: 400px;
 }
