@@ -1,16 +1,25 @@
-.navigation-links {
-  display: flex;
+.site-name {
+  display: grid;
+  font-family: 'Oswald', sans-serif;
+  font-size: xx-large;
 }
 
-.row-container {
+.navigation-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  border: 1px solid;
+}
+
+.non-recipe-card-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  margin-bottom: 50px;
 }
 
 .soup-nazi-img {
-  width: 640px;
+  width: 700px;
 }
 
 .soup-img {
-  height: 400px;
+  height: 380px;
 }
