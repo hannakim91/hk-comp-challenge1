@@ -15,6 +15,14 @@
   border: 1px solid;
 }
 
+.soup-nazi-img {
+  width: 640px;
+}
+
+.soup-img {
+  width: 450px;
+}
+
 .non-recipe-card-container {
   display: grid;
   grid-template-columns: 33% 33% 33%;
@@ -25,12 +33,3 @@
   padding: 4px;
 
  }
-}
-
-/* .soup-nazi-img {
-  width: 640px;
-}
-
-.soup-img {
-  width: 450px;
-} */
