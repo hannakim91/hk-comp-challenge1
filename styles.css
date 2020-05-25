@@ -1,7 +1,12 @@
-.site-name {
+.logo-log-in {
   display: grid;
+  justify-content: right;
+}
+
+.site-name {
   font-family: 'Oswald', sans-serif;
   font-size: xx-large;
+  color: #BD4805;
 }
 
 .navigation-links {
@@ -13,13 +18,19 @@
 .non-recipe-card-container {
   display: grid;
   grid-template-columns: 33% 33% 33%;
-  margin-bottom: 50px;
+  grid-gap: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 5px;
+  padding: 4px;
+
+ }
 }
 
-.soup-nazi-img {
-  width: 700px;
+/* .soup-nazi-img {
+  width: 640px;
 }
 
 .soup-img {
-  height: 380px;
-}
+  width: 450px;
+} */
