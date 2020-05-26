@@ -9,44 +9,52 @@
   color: #BD4805;
 }
 
+/* @media screen and (min-width: 320px) {
+
+} */
+
 .navigation-links {
   display: flex;
   justify-content: space-evenly;
-  border: 1px solid;
-}
-
-.soup-nazi-img {
-  width: 640px;
-}
-
-.soup-img {
-  width: 450px;
-}
-
-.text-box {
-  background: #CFBEA6;
-  text-align: center;
-}
-
-.text-box-text {
-  display:inline-block;
-  font-size: 40px;
-  color: #888587
+  border: 2px solid #BD4805;
 }
 
 .non-recipe-card-container {
   display: grid;
   grid-template-columns: 33% 33% 33%;
-  grid-gap: 50px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin: 5% 5% 5% 5%
+  grid-gap: 10px;
+  border: 2px solid #BD4805;
+  margin: 5px;
   padding: 4px;
  }
 
- .soup-card {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
+.soup-card {
+  max-width: 640px;
+  border: 1px solid #CFBEA6;
+  border-radius: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
- }
+}
+
+.soup-img {
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+}
+
+.text-box {
+  background: #CFBEA6;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: x-large;
+  object-fit: contain;
+}
+
+.text-box-text {
+  display:inline-block;
+  color: #FFFFFF
+}
